@@ -5,7 +5,7 @@
 '''
 pi = 3.14
 
-r = float(input("yarı çap: "))
+r = float(input("yari çap: "))
 
 alan = pi * (r ** 2)
 cevre = 2 * pi * r
@@ -15,7 +15,7 @@ print(result)
 
 
 '''
-    Bir aracın km cinsinden gittiği yol bilgisini mil olarak yazdırınız.
+    Bir aracin km cinsinden gittiği yol bilgisini mil olarak yazdiriniz.
     mil = km / 1.609344
 '''
 
