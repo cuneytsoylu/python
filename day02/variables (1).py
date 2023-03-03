@@ -18,18 +18,18 @@ sayi2 = 20
 _sayi3 = 30
 # sayi@ = 40 # yanlış
 
-sayi_4 = 50 # değişkenler boşluk içeremez.
+sayi_4 = 50  # değişkenler boşluk içeremez.
 
-sayı5 = 50 # türkçe karakter içermemelidir.
+sayı5 = 50  # türkçe karakter içermemelidir.
 
-yas = 20 # büyük küçük harf duyarlılığı vardır.
+yas = 20  # büyük küçük harf duyarlılığı vardır.
 YAS = 30
 
 print(yas)
 print(YAS)
 
 a, b, c = 10, 20, 30
-print(a,b,c)
+print(a, b, c)
 
 x = 1
 print(type(x))
@@ -45,7 +45,7 @@ isStudent = False
 
 print(type(isStudent))
 
-x, y, name, isStudent = 1, 1.5, "Cüneyt", False
+x, y, name, isStudent = 1, 1.5, "Cuneyt", False
 
 a = '10'
 b = '20'

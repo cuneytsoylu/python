@@ -1,4 +1,4 @@
-
+"""
 
 x = int(input("x: "))
 y = int(input("y: "))
@@ -9,6 +9,7 @@ print(type(y))
 toplam = x + y
 print(toplam)
 
+"""
 
 age = 4
 weight = 12.5
