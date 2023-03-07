@@ -3,13 +3,10 @@ kursAdi = "Python Dersleri: Sifirdan İleri Seviye Python Programlama."
 
 # 1- ' Hello World ' karakter dizisinin baş ve sondaki boşluk karakterlerini silin.
 sonuc = " Hello World ".strip()
-print(sonuc)
 sonuc = ' Hello World '.lstrip()
-print(sonuc)
 sonuc = ' Hello World '.rstrip()
-print(sonuc)
 sonuc = website.lstrip('/:pthw.')
-print(sonuc)
+
 # 2- 'www.sadikturan.com' içindeki sadikturan bilgisi haricindeki her karakteri silin.
 sonuc = "www.sadikturan.com".strip('w.moc')
 
@@ -53,5 +50,6 @@ sonuc = 'Hello World'.replace('World', 'There')
 # 11-'kursAdi' karakter dizisini boşluk karakterlerinden ayırın.
 kursAdi = kursAdi.lower().replace(':', '')
 sonuc = kursAdi.split()
+
 
 print(sonuc)
